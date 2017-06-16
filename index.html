@@ -10,60 +10,69 @@
 
 <body>
   <header>
-    <div class="inner">
-      <img src="img/small-logo.png">
-      <img src="img/delicious-logo.png">
-      <nav>
+    <!-- <div class="inner"> -->
+      <img id="fork" src="img/small-logo.png">
+      <img id="delicious" src="img/delicious-logo.png">
+      <!-- <nav> -->
         <ul class="navImages">
+          <li><img src="img/rss-icon.png" alt=""></li>
+          <li id="navSpace"><img src="img/mail-icon.png" alt=""></li>
+          <li><img src="img/pint-icon.png" alt=""></li>
+          <li><img src="img/mail-icon.png" alt=""></li>
           <li><img src="img/fb-icon.png" alt=""></li>
           <li><img src="img/twit-icon.png" alt=""></li>
           <li><img src="img/gp-icon.png" alt=""></li>
           <li><img src="img/insta-icon.png" alt=""></li>
           <li><img src="img/flic-icon.png" alt=""></li>
-          <li id="navSpace"><img src="img/pint-icon.png" alt=""></li>
-          <li><img src="img/rss-icon.png" alt=""></li>
-          <li><img src="img/mail-icon.png" alt=""></li>
         </ul>
-      </nav>
-    </div>
+      <!-- </nav> -->
+    <!-- </div> -->
   </header>
   <main>
-    <h1>Chocalate Pizza</h1>
+    <h1>Chocolate Pizza</h1>
     <p id="superSmallText">POSTED ON 15 DEC 2013/DESSERTS</p>
-    <img src="img/closeUpChocolatePizza.png" alt="">
+    <img id="mainPicture" src="img/closeUpChocolatePizza.png" alt="">
     <p>For the fig-swirl: Melt butter over medium heat in a saucepan.  Add brown sugar and stir to dissove.  Halve all of the figs and toss in the saucepan with water and lemon juice.  Cook over medium heate, stiffing frequently, until you have a chunky-jammy mixture.  Add salt with one or two stirs, set aside and let cool completely.</p>
 
     <p> Ice cream: In a small pot over medium heat, combin milk, and granulated sugar until sugar is completely dissoved and the milk is just barely lukewarm.  Whisk in the egg yolks.  Set mixture in the firdge and wait until the fig mixture is cooled.</p>
 
     <p> Using an ice cream machine, pour liquids not the frozen basin and process according tmanufacturer instructions, i.e., let spin and thicken for 20 minutes before adding mascarpone, fig jam mixture, and the nuts. Continue to process for +/- 10 minutes. Pour semi-frozen mixture into a pyrex dish or glass Tupperware. Freeze for at least two hours before serving.</p>
     <div id="checkListBackground">
-      <ul>
+      <ol id="firstOrderedList">
         <li>1 1/2 cups milk</li>
         <li>1/2 cup mascarpone</li>
         <li>1/2 tsp pink salt </li>
         <li>1lb Black Mission Figs</li>
         <li>1/2 cup brown sugar</li>
         <li>2-4 tbsp water</li>
-
+      </ol>
+      <ol id="secondOrderedList">
         <li>1 1/2 cups heavy cream</li>
         <li class="lineThrough">1/3 granulated sugar</li>
         <li class="lineThrough">2 egg yolks</li>
         <li>1 lemon, juiced</li>
         <li>2 tbsp butter</li>
         <li>1 cup honey roasted pecans, roughly chopped</li>
-      </ul>
+      </ol>
     </div>
   </main>
 
   <footer>
     <div class="inner">
-      <img src="img/van-pic.png" alt="">
-      <h4>Vanessa Stevenson</h4>
-      <p>Food enthusiasst, photography fan. Add a pich of raw foodism and that's pretty much who I am.</p>
-      <button type="shareRecipe">Share Recipe</button>
-    </div>
-      <img src="img/small-logo.png">
+      <div class="ftDiv">
+        <img src="img/van-pic.png" alt="">
+      </div>
+      <div class="ftDiv">
+        <p><span id="Vanessa">Vanessa Stevenson</span></br>Food enthusiasst, photography fan. Add a pich of raw foodism and that's</br>pretty much who I am.</p>
+      </div>
+      <div class="ftDiv">
+        <button type="shareRecipe">Share Recipe</button>
+      </div>
+      <div id="copyright">
+        <img src="img/small-logo.png"></br>
       <small>Delicious &copy; 2013 All rights Reserved.</br>Proiudly puchlished with Ghost.</small>
+    </div>
+    </div>
   </footer>
 </body>
 

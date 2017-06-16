@@ -1,7 +1,93 @@
-* {
+/** {
   border: 1px solid black;
+}*/
+body {
+  margin-left: 15em;
 }
 
+
+#fork {
+  height: 60px;
+}
+#delicious {
+  height: 60px;
+}
+#superSmallText {
+  font-size: 10px;
+  margin-top: -2em;
+}
+
+.navImages {
+  display: inline-block;
+  margin-bottom: 20em;
+  float: right;
+}
+
+.navImages li {
+  display: inline-block;
+  float: right;
+  padding-left: 2px;
+}
+
+#navSpace {
+  margin-left: 6px;
+}
+
+header {
+  border-bottom: groove 12px;
+  max-width: 901px;
+}
+
+main p {
+  max-width: 901px;
+}
+
+#checkListBackground {
+  background-image: url("img/list-bg.png");
+  max-width: 901px;
+  width: 901px;
+
+}
+
+#firstOrderedList {
+  max-width: 25em;
+}
+
+#secondOrderedList {
+  max-width: 25em;
+  float: right;
+  margin-top: -7.75em;
+}
+
+.lineThrough {
+  text-decoration: line-through;
+}
+
+.inner {
+  display: inline-block;
+  max-width: 901px;
+  width: 901px;
+}
+
+.ftDiv {
+  display: inline-block;
+}
+
+#Vanessa {
+  font-weight: bold;
+  font-size: 15px;
+}
+#copyright {
+  text-align: center;
+  margin-right: 9em;
+}
+#mainPicture {
+  margin-top: -10em;
+}
+footer {
+  max-width: 901px;
+  border-top: 12px groove;
+}
 button {
   -webkit-border-radius: 0;
   -moz-border-radius: 0;
@@ -12,6 +98,7 @@ button {
   background: #be7055;
   padding: 16px 37px 17px 37px;
   text-decoration: none;
+  margin-left: 5em;
 }
 
 button:hover {
