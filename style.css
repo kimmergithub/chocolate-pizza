@@ -1,0 +1,20 @@
+* {
+  border: 1px solid black;
+}
+
+button {
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 16px;
+  background: #be7055;
+  padding: 16px 37px 17px 37px;
+  text-decoration: none;
+}
+
+button:hover {
+  background: #00bd16;
+  text-decoration: none;
+}
