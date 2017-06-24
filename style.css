@@ -51,12 +51,14 @@ main p {
 
 #firstOrderedList {
   max-width: 25em;
+  list-style: square;
 }
 
 #secondOrderedList {
   max-width: 25em;
   float: right;
   margin-top: -7.75em;
+  list-style: square;
 }
 
 .lineThrough {
